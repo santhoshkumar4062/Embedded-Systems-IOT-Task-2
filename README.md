@@ -79,7 +79,7 @@ Install Libraries: DHT Sensor Library by AdaFruit, AdaFruit SSD1306, AdaFruit GF
   - display.println(" %");
   - display.display();
   - Serial.print("Humidity: "); Serial.print(h); Serial.print(" %\tTemperature: "); Serial.
- -}
+- }
 
 
 *Note:* 
