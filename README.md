@@ -29,25 +29,25 @@ The Diagram
  - Pull-up resistor (4.7k-10kΩ) on DHT22 DATA line to VCC ensures stable single-wire Communication
 
 ----
-##### WORKING PRINCIPAL:
+#### WORKING PRINCIPAL:
 The ESP32
 
 
 ----
-###### ESP32 CODE:
+#### ESP32 CODE:
 Install Libraries:
 
 
 
 ----
-####### CODE EXPLANATION:
+#### CODE EXPLANATION:
 
 - Libraries:
 - Setup:
 - Loop:
 
 ---- 
-######## REAL-WORLD APPLICATONS:
+#### REAL-WORLD APPLICATONS:
 - 
 
 
