@@ -87,25 +87,16 @@ Install Libraries: DHT Sensor Library by AdaFruit, AdaFruit SSD1306, AdaFruit GF
   
 ----
 #### CODE EXPLANATION:
-
-*Libraries:*
- - DHT For Sensor Protocol: GFX/SSD1306 FOR OLED Graphics and SPI Control.
-*Setup:*
- - Initializes Serial for Debug, DHT Sensor, And OLED (Checks Allocation). Clears and Configures Display Font/Colour.
-*Loop:*
- - Reads H/T Every 2S (DHT22 Min Interval), clears OLED, Prints values at Cursor Positior Updates Displays. Serial Mirrors for Monitoring. Errors Handling via NaN Checks in Full Code.
+Libraries:- DHT For Sensor Protocol: GFX/SSD1306 FOR OLED Graphics and SPI Control.
+Setup:- Initializes Serial for Debug, DHT Sensor, And OLED (Checks Allocation). Clears and Configures Display Font/Colour.
+Loop:- Reads H/T Every 2S (DHT22 Min Interval), clears OLED, Prints values at Cursor Positior Updates Displays. Serial Mirrors for Monitoring. Errors Handling via NaN Checks in Full Code.
 
 ---- 
 #### REAL-WORLD APPLICATONS:
-
-*Home Automation:*
- - HVAC Control Based on Room Climate.
-*Green House:*
- - Crop Monitoring for Optional Growth.
-*Wearable/IoT:*
- - Portable Weather Stations Or Fridge Monitors.
-*Industrial*
- - WareHouse Humidity Alerts to Prevent Damage. Scalable to WIFI For Cloud Logging.
+*Home Automation:*    - HVAC Control Based on Room Climate.
+*Green House:*        - Crop Monitoring for Optional Growth.
+*Wearable/IoT:*       - Portable Weather Stations Or Fridge Monitors.
+*Industrial*          - WareHouse Humidity Alerts to Prevent Damage. Scalable to WIFI For Cloud Logging.
 
 
 
