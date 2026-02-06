@@ -83,7 +83,7 @@ Install Libraries: DHT Sensor Library by AdaFruit, AdaFruit SSD1306, AdaFruit GF
 
 
 *Note:* 
-- For Pur SPI, Adjust Display. Begin(SSD1306_SPI) And Specify SCK/MOSI Pins via SPI.begin (SCK, MISO, MOSI, CS). This Hybrid init works for many Modules. Tests Pins Match Diagram.
+- For Pure SPI, Adjust Display. Begin(SSD1306_SPI) And Specify SCK/MOSI Pins via SPI.begin (SCK, MISO, MOSI, CS). This Hybrid init works for many Modules. Tests Pins Match Diagram.
   
 ----
 #### CODE EXPLANATION:
