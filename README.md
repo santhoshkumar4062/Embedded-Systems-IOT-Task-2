@@ -59,10 +59,10 @@ Install Libraries: DHT Sensor Library by AdaFruit, AdaFruit SSD1306, AdaFruit GF
     - Serial.println(F("SSD1306 allocation failed"));
     - for(;;);
  - }
-  -display.clearDisplay();
-  -display.setTextSize(1);
-  -display.setTextColor(SSD1306_WHITE);
--}
+  - display.clearDisplay();
+  - display.setTextSize(1);
+  - display.setTextColor(SSD1306_WHITE);
+ - }
 
 - void loop() {
   - delay(2000);
